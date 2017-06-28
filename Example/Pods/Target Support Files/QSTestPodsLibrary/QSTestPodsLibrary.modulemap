@@ -1,0 +1,6 @@
+framework module QSTestPodsLibrary {
+  umbrella header "QSTestPodsLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

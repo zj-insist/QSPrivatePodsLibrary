@@ -1,0 +1,16 @@
+PODS:
+  - QSTestPodsLibrary (0.1.0)
+
+DEPENDENCIES:
+  - QSTestPodsLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  QSTestPodsLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QSTestPodsLibrary: 1f95bf532dd64243f7b697db492af3140f460bcd
+
+PODFILE CHECKSUM: b3740bc6926052fe17eeb0e4854b5acf3cbbf799
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QSTestPodsLibrary_Example' do
+  pod 'QSTestPodsLibrary', :path => '../'
+
+  target 'QSTestPodsLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
