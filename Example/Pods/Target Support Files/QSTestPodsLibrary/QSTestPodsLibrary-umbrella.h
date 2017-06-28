@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "QSTestObject.h"
 
 FOUNDATION_EXPORT double QSTestPodsLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char QSTestPodsLibraryVersionString[];

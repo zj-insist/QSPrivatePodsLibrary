@@ -1,19 +1,19 @@
 {
   "name": "QSTestPodsLibrary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of QSTestPodsLibrary.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zj_lostself@163.com/QSTestPodsLibrary",
+  "description": "测试",
+  "homepage": "https://github.com/zj-insist/QSPrivatePodsLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zj_lostself@163.com": "zj_lostself@163.com"
+    "QS": "zj_lostself@163.com"
   },
   "source": {
-    "git": "https://github.com/zj_lostself@163.com/QSTestPodsLibrary.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zj-insist/QSPrivatePodsLibrary.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18756F3A1F03560C00AC9670 /* QSTestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 18756F381F03560C00AC9670 /* QSTestObject.h */; };
-		18756F3B1F03560C00AC9670 /* QSTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18756F391F03560C00AC9670 /* QSTestObject.m */; };
 		2736D0356DC04A7D950208595E532B94 /* Pods-QSTestPodsLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC83B8062423CAB31E96BB6B51603DA3 /* Pods-QSTestPodsLibrary_Tests-dummy.m */; };
 		2C08FD014D5FD542D56F2CE3ECF42CAA /* Pods-QSTestPodsLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 728C979972A7A7651868D9D01FBB3299 /* Pods-QSTestPodsLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		335CADFED415ACB226392CBCD074AB61 /* QSTestPodsLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E22B0C878B9ED3C5CCDD7DA2786BEA /* QSTestPodsLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37B5A2B5278DC9E9450B7E848C740219 /* Pods-QSTestPodsLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22385624A3619F0D1524A70FB39DF4BA /* Pods-QSTestPodsLibrary_Example-dummy.m */; };
 		45B547F90397A287F1A2AE5C33AF9D10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		53F08E22E4789C62FCD78150FEBD05ED /* QSTestPodsLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 662C309EBA20BC3D24DBB7BB8263E388 /* QSTestPodsLibrary-dummy.m */; };
-		77CB2B0DF5BFED5AF0F30C31FA6AE880 /* QSTestPodsLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34E22B0C878B9ED3C5CCDD7DA2786BEA /* QSTestPodsLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C373C1571E7E4818EA767715CB4DBC /* QSTestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 27BC0E7DCA371D7145E147E7B291731E /* QSTestObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89AD5FDE61D77759FBB1E17846B7C6AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		8DA6A2077E145BB019E5035DB98A2999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A9A4AF4F38740219CAEFBE99DC406296 /* QSTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 913474F4AB71A48C33583F714C138CF5 /* QSTestObject.m */; };
 		E19C96CAAC0FF354012858A664B64CF5 /* Pods-QSTestPodsLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A08B9AFBE463EF853C54B534F156EAA /* Pods-QSTestPodsLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E374746DCE2FEB78C01B1D8C5036BD1F /* QSTestPodsLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 662C309EBA20BC3D24DBB7BB8263E388 /* QSTestPodsLibrary-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +35,9 @@
 		06DA822671D9C28AE3FE10F5EC79A796 /* Pods-QSTestPodsLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSTestPodsLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1122C6E12CB8854D7A1B7175A7E748C4 /* Pods-QSTestPodsLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSTestPodsLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
 		17F4D5B5D766EFD4D310745E46C2F0B0 /* Pods-QSTestPodsLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSTestPodsLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		18756F381F03560C00AC9670 /* QSTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSTestObject.h; sourceTree = "<group>"; };
-		18756F391F03560C00AC9670 /* QSTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSTestObject.m; sourceTree = "<group>"; };
 		1D8DD3B578B8048CE9C2DC18D45E0839 /* QSTestPodsLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSTestPodsLibrary.xcconfig; sourceTree = "<group>"; };
 		22385624A3619F0D1524A70FB39DF4BA /* Pods-QSTestPodsLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSTestPodsLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		27BC0E7DCA371D7145E147E7B291731E /* QSTestObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QSTestObject.h; sourceTree = "<group>"; };
 		34E22B0C878B9ED3C5CCDD7DA2786BEA /* QSTestPodsLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSTestPodsLibrary-umbrella.h"; sourceTree = "<group>"; };
 		3656F94C73851BB160C9A8DF49627CB6 /* QSTestPodsLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSTestPodsLibrary-prefix.pch"; sourceTree = "<group>"; };
 		5A08B9AFBE463EF853C54B534F156EAA /* Pods-QSTestPodsLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSTestPodsLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -48,20 +47,21 @@
 		728C979972A7A7651868D9D01FBB3299 /* Pods-QSTestPodsLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSTestPodsLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		742536DE8E049B482D02D894D6B5538F /* Pods-QSTestPodsLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSTestPodsLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
 		893F1AA4E950759896C7861F33D6061E /* Pods-QSTestPodsLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSTestPodsLibrary_Example-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC7A26F156C277DCCAEE579DBCDE1EA /* Pods-QSTestPodsLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QSTestPodsLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		913474F4AB71A48C33583F714C138CF5 /* QSTestObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QSTestObject.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC7A26F156C277DCCAEE579DBCDE1EA /* Pods-QSTestPodsLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QSTestPodsLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		AC83B8062423CAB31E96BB6B51603DA3 /* Pods-QSTestPodsLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSTestPodsLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		AD636F401F24E06E0C7C41EAD5DA6D4B /* Pods-QSTestPodsLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSTestPodsLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ADA1EFB8996630DC002F77D4E9720097 /* Pods-QSTestPodsLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSTestPodsLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF36F61786BB50A379D4B7CE0C2060C1 /* QSTestPodsLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QSTestPodsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B157E0D08872DFCBC38A865DA58C453E /* QSTestPodsLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QSTestPodsLibrary.modulemap; sourceTree = "<group>"; };
-		B2E559B8F7C404702351BE4BB4C1807D /* Pods-QSTestPodsLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QSTestPodsLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		BFC4942C7928078E5545013AEE2155EB /* Pods_QSTestPodsLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSTestPodsLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF36F61786BB50A379D4B7CE0C2060C1 /* QSTestPodsLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QSTestPodsLibrary.framework; path = QSTestPodsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B157E0D08872DFCBC38A865DA58C453E /* QSTestPodsLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QSTestPodsLibrary.modulemap; sourceTree = "<group>"; };
+		B2E559B8F7C404702351BE4BB4C1807D /* Pods-QSTestPodsLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QSTestPodsLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		BFC4942C7928078E5545013AEE2155EB /* Pods_QSTestPodsLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSTestPodsLibrary_Tests.framework; path = "Pods-QSTestPodsLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D02AD67D1A09B861E751B4CAAF79092D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4DD81360FB69BC0C52086C4772A558D /* Pods-QSTestPodsLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSTestPodsLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DD9ED14828869C55E5E196F70B1399DF /* Pods-QSTestPodsLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSTestPodsLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E11288BA9F636D60915D76BC4F54C697 /* Pods_QSTestPodsLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSTestPodsLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E11288BA9F636D60915D76BC4F54C697 /* Pods_QSTestPodsLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSTestPodsLibrary_Example.framework; path = "Pods-QSTestPodsLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED168BDACCEAEDC097A3BC7732ED80F2 /* Pods-QSTestPodsLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSTestPodsLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ED2F37309DA06430BA0445247FB1138C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,12 +136,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		71FD59C71C2DDC3CC7C5D8D56C779CE0 /* Classes */ = {
+		6BBC271D088B3679A9301EBA03287356 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				18756F381F03560C00AC9670 /* QSTestObject.h */,
-				18756F391F03560C00AC9670 /* QSTestObject.m */,
+				27BC0E7DCA371D7145E147E7B291731E /* QSTestObject.h */,
+				913474F4AB71A48C33583F714C138CF5 /* QSTestObject.m */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -172,6 +173,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		9DEDA5B76EA1EA3237AA4FC7F70483CD /* QSTestPodsLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				6BBC271D088B3679A9301EBA03287356 /* Classes */,
+			);
+			name = QSTestPodsLibrary;
+			path = QSTestPodsLibrary;
+			sourceTree = "<group>";
+		};
 		A8AC49235560ADE43CC7040D33DDBB37 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,7 +194,7 @@
 		B939C6BDE87193E9B8A721C4FBB4E91F /* QSTestPodsLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				F707E259C8EB76E253D112AEAE6AFC2C /* QSTestPodsLibrary */,
+				9DEDA5B76EA1EA3237AA4FC7F70483CD /* QSTestPodsLibrary */,
 				6167C5EC81585F89F78EB5284574399A /* Support Files */,
 			);
 			name = QSTestPodsLibrary;
@@ -217,14 +227,6 @@
 			path = "Target Support Files/Pods-QSTestPodsLibrary_Tests";
 			sourceTree = "<group>";
 		};
-		F707E259C8EB76E253D112AEAE6AFC2C /* QSTestPodsLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				71FD59C71C2DDC3CC7C5D8D56C779CE0 /* Classes */,
-			);
-			path = QSTestPodsLibrary;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -241,15 +243,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19C96CAAC0FF354012858A664B64CF5 /* Pods-QSTestPodsLibrary_Example-umbrella.h in Headers */,
-				18756F3A1F03560C00AC9670 /* QSTestObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EEC1C69E880A71C535AF8E1790577AD /* Headers */ = {
+		D4130CD875B54D7824A56F283EFFCDC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77CB2B0DF5BFED5AF0F30C31FA6AE880 /* QSTestPodsLibrary-umbrella.h in Headers */,
+				52C373C1571E7E4818EA767715CB4DBC /* QSTestObject.h in Headers */,
+				335CADFED415ACB226392CBCD074AB61 /* QSTestPodsLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +297,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2174C244F493C20F5A1BD61A9A453E78 /* Build configuration list for PBXNativeTarget "QSTestPodsLibrary" */;
 			buildPhases = (
-				A9F9FA535FAC3FF1A8EB6C7A761E5314 /* Sources */,
+				C939211A56DBC0432493195528E4FFF7 /* Sources */,
 				68417794E08C61C850996C3BDEFA94E5 /* Frameworks */,
-				9EEC1C69E880A71C535AF8E1790577AD /* Headers */,
+				D4130CD875B54D7824A56F283EFFCDC2 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -349,16 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18756F3B1F03560C00AC9670 /* QSTestObject.m in Sources */,
 				37B5A2B5278DC9E9450B7E848C740219 /* Pods-QSTestPodsLibrary_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9F9FA535FAC3FF1A8EB6C7A761E5314 /* Sources */ = {
+		C939211A56DBC0432493195528E4FFF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53F08E22E4789C62FCD78150FEBD05ED /* QSTestPodsLibrary-dummy.m in Sources */,
+				A9A4AF4F38740219CAEFBE99DC406296 /* QSTestObject.m in Sources */,
+				E374746DCE2FEB78C01B1D8C5036BD1F /* QSTestPodsLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
