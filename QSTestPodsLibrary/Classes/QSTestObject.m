@@ -8,6 +8,8 @@
 
 #import "QSTestObject.h"
 
+
+//测试注释
 @implementation QSTestObject
 
 @end
