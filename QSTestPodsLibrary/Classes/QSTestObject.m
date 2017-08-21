@@ -12,6 +12,8 @@
 //测试注释
 
 ///测试
+
+///版本0.1.2修改
 @implementation QSTestObject
 
 @end
