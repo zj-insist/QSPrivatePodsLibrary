@@ -14,6 +14,8 @@
 ///测试
 
 ///版本0.1.2修改
+
+///我要取消上面的更改，这才是0.1.2
 @implementation QSTestObject
 
 @end
